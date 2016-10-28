@@ -1,7 +1,57 @@
 /* --------------------------
  * ------ Header
  * ------------------------*/
-
 header .navbar{
+	padding: 1em;
 	background: #f8f8f8;
+}
+header .navbar-brand {
+	padding: 5px;
+}
+header a img{
+	height: 100%;
+}
+header .collapse{
+	float: right;
+}
+header .navbar li a{
+	color: #8a8a8a
+}
+.nav_carro{
+	color: #fc514d;
+}
+.fa-search{
+	color: #545454;
+}
+/* -------------------------------
+ * ------ Cabecera
+ * ----------------------------*/
+
+.cabecera h1{
+	text-align: center;
+	font-family: "Candara";
+	text-transform: uppercase;
+}
+.cabecera .navbar{
+	margin-top: 50px;
+	width: 700px;
+	margin-left: 25%;
+	margin-right: 25%;
+}
+.cabecera .navbar ul li a{
+	color: #000;
+	text-transform: uppercase;
+	padding: 10px 20px;
+	transition: .3s
+}
+.cabecera .navbar ul li a:hover,.cabecera .navbar ul li a:focus{
+	background: none;
+	color: #006cff;
+}
+.cabecera .navbar ul li.active{
+	border: 1.5px solid #006cff;
+	border-radius: 20px;
+}
+.cabecera .navbar ul li.active a{
+	color: #006cff;
 }
