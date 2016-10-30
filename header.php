@@ -8,6 +8,8 @@
 	<link rel="stylesheet" href="/css/bootstrap.min.css">
 	<link rel="stylesheet" href="/css/estilos.css">
 	<link rel="stylesheet" href="/font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" href="/css/animations.css">
+	<script src="/js/jquery.js"></script>
 </head>
 <body>
 	<header>
@@ -21,7 +23,7 @@
 			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 					<ul class="nav navbar-nav">
 				        <li><a href="#"><i class="fa fa-user"></i> Cuenta</a></li>
-				        <li><a href="#"><i class="fa fa-shopping-cart"></i> Cart 0 Items(<span class="nav_carro">0.00 Bsf</span>)</a></li>
+				        <li><a href="#"><i class="fa fa-shopping-cart"></i> Productos (<span class="nav_carro">0</span>)</a></li>
 				        <li><a href="#"><i class="fa fa-search"></i></a></li>
 					</ul>
 				</div>
