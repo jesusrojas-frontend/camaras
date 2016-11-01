@@ -286,13 +286,16 @@ slideExpandUp
 
 .slideExpandUp{
 	animation-name: slideExpandUp;
-	-webkit-animation-name: slideExpandUp;	
+	-webkit-animation-name: slideExpandUp;
+	-moz-animation-name: slideExpandUp;
 
 	animation-duration: 1.6s;	
 	-webkit-animation-duration: 1.6s;
+	-moz-animation-duration: 1.6s;
 
 	animation-timing-function: ease-out;	
-	-webkit-animation-timing-function: ease -out;
+	-webkit-animation-timing-function: ease-out;
+	-moz-animation-timing-function: ease-out;
 
 	-webkit-animation-fill-mode: forwards;	
 	animation-fill-mode: forwards;
@@ -335,6 +338,7 @@ slideExpandUp
 @-webkit-keyframes slideExpandUp {
 	0% {
 		-webkit-transform: translateY(100%) scaleX(0.5);
+		opacity: 1;
 	}
 	30%{
 		-webkit-transform: translateY(-8%) scaleX(0.5);
@@ -358,7 +362,39 @@ slideExpandUp
 		-webkit-transform: translateY(0%) scaleX(1.02);
 	}	
 	100%{
-		-webkit-transform: translateY(0%) scaleX(1);		
+		-webkit-transform: translateY(0%) scaleX(1);
+		opacity: 1;	
+	}
+}
+@-moz-keyframes slideExpandUp {
+	0% {
+		-moz-transform: translateY(100%) scaleX(0.5);
+		opacity: 1;
+	}
+	30%{
+		-moz-transform: translateY(-8%) scaleX(0.5);
+	}	
+	40%{
+		-moz-transform: translateY(2%) scaleX(0.5);
+	}
+	50%{
+		-moz-transform: translateY(0%) scaleX(1.1);
+	}
+	60%{
+		-moz-transform: translateY(0%) scaleX(0.9);		
+	}
+	70% {
+		-moz-transform: translateY(0%) scaleX(1.05);
+	}			
+	80%{
+		-moz-transform: translateY(0%) scaleX(0.95);		
+	}
+	90% {
+		-moz-transform: translateY(0%) scaleX(1.02);
+	}	
+	100%{
+		-moz-transform: translateY(0%) scaleX(1);
+		opacity: 1;		
 	}
 }
 
