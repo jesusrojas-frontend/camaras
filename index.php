@@ -1,6 +1,6 @@
 <?php include('header.php');?>
 
-	<section class="contenedor">
+	<section class="contenedor col-md-12">
 		<article class="cabecera">
 			<h1>Vigilante</h1>
 			<nav class="navbar text-center">
@@ -14,29 +14,25 @@
 					</ul>
 			</nav>
 		</article><!-- Cabecera -->
-		<section class="precentacion ">
+		<section class="precentacion col-md-12">
 				<section class="slider_banner">
 				
 					<div class="banner" id="banner">
 					
-						<section class="slide active">
-							<article class="col-md-5">
-								<h2>iWatch</h2>
-								<p>Lorem Ipsum is simply dummy text of the printing
-								and typestting industry. Lorem ipsum has been the 
-								industry’s standard dummy.</p>
-								<br>
-								<a href="#" class="btn-read">Read more</a>
-
-							</article>
-							<article class="col-md-5 imagen1">
-								<img src="/img/bg1.jpg" alt="bg1">
-							</article>
-						</section>
-
-						<section class="slide">
-						
-						</section>
+						<div class="slide">
+							<a href="#">
+								<img src="/img/BannerPortada/1.jpg" alt="Kit1" class="imagen_banner">
+							</a>
+						</div>
+						<!--<div class="slide">
+							<a href="#">
+								<img src="/img/BannerPortada/1.jpg" alt="Kit1" class="imagen_banner">
+							</a>
+						</div><div class="slide">
+							<a href="#">
+								<img src="/img/BannerPortada/1.jpg" alt="Kit1" class="imagen_banner">
+							</a>
+						</div>-->
 
 					
 					</div>
@@ -50,36 +46,35 @@
 					</div>
 				</section>
 		</section><!-- Precentacion -->
-		<section class="promociones">
-			<article class="promociones1 col-md-4" id="promociones1">
+		<section class="promociones col-md-12">
+			<article class="promociones1 col-md-4 col-sm-4" id="promociones1">
 				<section class="col-md-7">
-					<h2>iPhone 6</h2>
-					<p>Lorem ipsum is simply
-					dummy text of thei..</p>
+					<h2>Camaras</h2>
+					<p>Camaras infrarojos de alta resolucion.</p>
 				</section>
-				<a href="#" class="btn-read">Read more</a>
+				<a href="#" class="btn-read">Leer mas</a>
+				
 			</article>
-			<article class="promociones2 col-md-4" id="promociones2">
+			<article class="promociones2 col-md-4 col-sm-4" id="promociones2">
 				<section class="separador">
-				<h2>Oakely Airwave</h2>
-					<section class="col-md-6">
-						<p>Lorem ipsum is simply
-						dummy text of thei..</p>
+				<h2>Monitores</h2>
+					<section class="col-md-5">
+						<p>Monitor LCD</p>
 					</section>
-					<section class="col-md-6">
-						<a href="#" class="btn-read">Read more <i class="fa  fa-arrow-right"></i></a>
+					<section class="col-md-7">
+						<a href="#" class="btn-read">Leer Mas</a>
 					</section>
 				</section>
 			</article>
-			<article class="promociones3 col-md-4" id="promociones3">
+			<article class="promociones3 col-md-4 col-sm-4" id="promociones3">
 				<section class="col-md-6">
-					<h2>SuperDrive</h2>
-					<p>Lorem ipsum is simply
-					dummy text of thei..</p>
+					<h2>Sistemas de Acceso</h2>
+					<p>Sistema biometrico para control de acceso por horarios.</p>
 				</section>
+				<img src="/img/productos/F19.jpg" alt="Biometrico" class="col-md-6">
 				<section class="col-md-6 separador-btn">
 					
-					<a href="#" class="btn-read">Read more</a>
+					<a href="#" class="btn-read">Leer mas</a>
 				</section>
 
 			</article>
@@ -98,9 +93,10 @@
 			</nav><!-- Menu Mejores -->
 			<article class="mejores_articulos">
 				
-				<section class="col-md-2">
+				<section class="col-md-2 col-sm-4">
 					<div class="producto_img">
-						<img src="/img/productos/ST-R758.jpg" alt="Camara Mini Domo" class="col-md-12">
+						<a href="/hola">
+						<img src="/img/productos/ST-R758.jpg" alt="Camara Mini Domo" class="col-md-12"></a>
 					</div>
 					<!-- Imagen -->
 					<div class="producto_acciones">
@@ -118,9 +114,11 @@
 				</section>
 				
 				
-				<section class="col-md-2">
+				<section class="col-md-2 col-sm-4">
 					<div class="producto_img">
-						<img src="/img/productos/ST-R758ATQ.jpg" alt="ST-R758ATQ" class="col-md-12">
+						<a href="#">
+							<img src="/img/productos/ST-R758ATQ.jpg" alt="ST-R758ATQ" class="col-md-12">
+						</a>
 					</div>
 					<!-- Imagen -->
 					<div class="producto_acciones">
@@ -138,9 +136,11 @@
 				</section>
 				
 				
-				<section class="col-md-2">
+				<section class="col-md-2 col-sm-4">
 					<div class="producto_img">
-						<img src="/img/productos/ST-740.JPG" alt="ST-740" class="col-md-12">
+						<a href="#">
+							<img src="/img/productos/ST-740.JPG" alt="ST-740" class="col-md-12">
+						</a>
 					</div>
  					<!-- Imagen -->
 					<div class="producto_acciones">
@@ -158,9 +158,11 @@
 				</section>
 				
 				
-				<section class="col-md-2">
+				<section class="col-md-2 col-sm-4">
 					<div class="producto_img">
-						<img src="/img/productos/ST-603.jpg" alt="ST-603" class="col-md-12">
+						<a href="#">
+							<img src="/img/productos/ST-603.jpg" alt="ST-603" class="col-md-12">
+						</a>
 					</div>
  					<!-- Imagen -->
 					<div class="producto_acciones">
@@ -181,9 +183,11 @@
 
 
 
-				<section class="col-md-2">
+				<section class="col-md-2 col-sm-4">
 					<div class="producto_img">
-						<img src="/img/productos/IPC-HFW2200.jpg" alt="Camara ip Tipo Bullet" class="col-md-12">
+						<a href="#">
+							<img src="/img/productos/IPC-HFW2200.jpg" alt="Camara ip Tipo Bullet" class="col-md-12">
+						</a>
 					</div>
 					<!-- Imagen -->
 					<div class="producto_acciones">
@@ -201,9 +205,11 @@
 				</section>
 				
 				
-				<section class="col-md-2">
+				<section class="col-md-2 col-sm-4">
 					<div class="producto_img">
-						<img src="/img/productos/IPC-HFW3300.jpg" alt="Camara ip Tipo Bullet" class="col-md-12">
+						<a href="#">
+							<img src="/img/productos/IPC-HFW3300.jpg" alt="Camara ip Tipo Bullet" class="col-md-12">
+						</a>
 					</div>
 					<!-- Imagen -->
 					<div class="producto_acciones">
@@ -221,9 +227,11 @@
 				</section>
 				
 				
-				<section class="col-md-2">
+				<section class="col-md-2 col-sm-4">
 					<div class="producto_img">
-						<img src="/img/productos/SD63230S.jpg" alt="Camara PTZ IP" class="col-md-12">
+						<a href="#">
+							<img src="/img/productos/SD63230S.jpg" alt="Camara PTZ IP" class="col-md-12">
+						</a>
 					</div>
  					<!-- Imagen -->
 					<div class="producto_acciones">
@@ -241,9 +249,11 @@
 				</section>
 				
 				
-				<section class="col-md-2">
+				<section class="col-md-2 col-sm-4">
 					<div class="producto_img">
-						<img src="/img/productos/DH-NKB-1000.jpg" alt="Controlador PTZ IP" class="col-md-12">
+						<a href="#">
+							<img src="/img/productos/DH-NKB-1000.jpg" alt="Controlador PTZ IP" class="col-md-12">
+						</a>
 					</div>
  					<!-- Imagen -->
 					<div class="producto_acciones">
@@ -263,37 +273,40 @@
 				
 				
 			</article>
-			<div class="col-md-2 block-center abajo">
+			<div class="col-md-2 col-sm-4 block-center abajo">
 					<a href="#" class="btn-read">Mostra mas</a>
 				</div>
 		</section><!-- Mejores -->
 		<section class="super-promo col-md-12">
-			<article class="col-md-6">
+			<article class="col-md-6 col-sm-6">
 				<img src="" alt="Super Promocion">
 			</article>
-			<article class="col-md-5">
+			<article class="col-md-5 col-sm-5">
 				<h2>iPhone 6 Plus</h2>
-				<p class="col-md-8">Performance and design. Taken
+				<p class="col-md-8 col-sm-8">Performance and design. Taken
 					right to the edge.</p>
 				<a href="#" class="btn-read">Comprar Ahora</a>
 			</article>
 		</section><!-- Super Promocion -->
-		<section class="servicios col-md-12">
-			<article class="col-md-4">
+		<section class="servicios col-md-12 col-sm-12">
+			<article class="col-md-4 col-sm-4
+			">
 				<h2 class="text-center">
 					<i class="fa fa-truck"></i>
 				</h2>
 				<h3 class="text-center">Free shipping</h3>
 				<p class="text-center">Lorem Ipsum is simply dummy text of th rpinting and typesetting industry. Lorem Ipsum has been the industry’s standard dummy</p>
 			</article><!-- Servicio -->
-			<article class="col-md-4">
+			<article class="col-md-4 col-sm-4
+			">
 				<h2 class="text-center">
 					<i class="fa fa-refresh"></i>
 				</h2>
 				<h3 class="text-center">100% refund</h3>
 				<p class="text-center">Lorem Ipsum is simply dummy text of th rpinting and typesetting industry. Lorem Ipsum has been the industry’s standard dummy</p>
 			</article><!-- Servicio -->
-			<article class="col-md-4">
+			<article class="col-md-4 col-sm-4
+			">
 				<h2 class="text-center">
 					<i class="fa  fa-support"></i>
 				</h2>
@@ -301,8 +314,8 @@
 				<p class="text-center">Lorem Ipsum is simply dummy text of th rpinting and typesetting industry. Lorem Ipsum has been the industry’s standard dummy</p>
 			</article><!-- Servicio -->
 		</section><!-- Servicios -->
-		<section class="especiales col-md-12">
-			<article class="col-md-4">
+		<section class="especiales col-md-12 col-sm-12">
+			<article class="col-md-4 col-sm-4">
 				<h3>Productos destacados</h3>
 				<section class="col-md-12">
 					<div class="ventas">
@@ -339,7 +352,7 @@
 				</section><!-- 1 -->
 
 			</article>
-			<article class="col-md-4">
+			<article class="col-md-4 col-sm-4">
 				<h3>Ofertas especiales</h3>
 				<section class="col-md-12">
 					<div class="ventas">
@@ -375,7 +388,7 @@
 					</div>
 				</section><!-- 1 -->
 			</article>
-			<article class="col-md-4">
+			<article class="col-md-4 col-sm-4">
 				<h3>top ventas</h3>
 				
 				<section class="col-md-12">

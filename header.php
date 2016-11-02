@@ -10,6 +10,7 @@
 	<link rel="stylesheet" href="/font-awesome/css/font-awesome.min.css">
 	<link rel="stylesheet" href="/css/animations.css">
 	<script src="/js/jquery.js"></script>
+	<link rel="stylesheet" href="/css/banner.css">
 </head>
 <body>
 	<header>
