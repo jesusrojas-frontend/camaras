@@ -80,9 +80,11 @@ h1{
 
 .slider_banner .banner .slide{
 	left: 100%;
+	position: absolute;
+	z-index: 5;
 }
 .slider_banner .banner .slide.active{
-	left: 0;
+	z-index: 1000;
 }
 
 .slider_banner .flecha-banner{

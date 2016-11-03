@@ -34,5 +34,6 @@
 
 	<script src="/js/animaciones.js"></script>
 	<script src="/js/bootstrap.min.js"></script>
+	<script src="/js/slide.js"></script>
 </body>
 </html>

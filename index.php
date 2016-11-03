@@ -24,15 +24,15 @@
 								<img src="/img/BannerPortada/1.jpg" alt="Kit1" class="imagen_banner">
 							</a>
 						</div>
-						<!--<div class="slide">
+						<div class="slide">
 							<a href="#">
-								<img src="/img/BannerPortada/1.jpg" alt="Kit1" class="imagen_banner">
+								<img src="/img/BannerPortada/2.jpg" alt="Kit1" class="imagen_banner">
 							</a>
 						</div><div class="slide">
 							<a href="#">
-								<img src="/img/BannerPortada/1.jpg" alt="Kit1" class="imagen_banner">
+								<img src="/img/BannerPortada/3.jpg" alt="Kit1" class="imagen_banner">
 							</a>
-						</div>-->
+						</div>-
 
 					
 					</div>
