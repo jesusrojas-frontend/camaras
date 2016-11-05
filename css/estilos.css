@@ -155,6 +155,10 @@ h1{
 .promociones1{
 	background: #61D6EE;
 }
+.promociones1 a:hover, .promociones2 a:hover, .promociones3 a:hover{
+	text-decoration: none;
+	color: #2679FF;
+}
 .promociones2{
 	box-shadow: 1px 5px 5px #C6C6C6;
 }
@@ -163,6 +167,7 @@ h1{
 }
 .promociones1 img{
 	float: right;
+	margin-top: 100px;
 }
 .btn-read{
 	border-radius: 20px;
@@ -310,6 +315,7 @@ h1{
 	height: 448px;
 	margin-top: 100px;
 	transform: scaleX(0);
+	overflow: hidden;
 }
 .super-promo h2{
 	color: white;
@@ -323,6 +329,9 @@ h1{
 	float: right;
 	font-size: 20px;
 	text-align: right;
+}
+.super-promo a:hover{
+	text-decoration: none;
 }
 .super-promo .btn-read{
 	float: right;
@@ -455,8 +464,13 @@ footer li a:hover,footer li a:focus{
 }
 
 /* ---------------------------------
- * ------ Resonsive
+ * ------ Responsive
  * -------------------------------*/
+ @media screen and (min-width: 768px){
+	header .navbar-toggle{
+		display: none;
+	}
+ }
 
 @media screen and (max-width: 768px){
 	/*----- Cabecera -----*/
@@ -472,6 +486,12 @@ footer li a:hover,footer li a:focus{
 		display: none;
 	}
 	/* ------ Promociones ------*/
+	.promociones1{
+		overflow: hidden;
+	}
+	.promociones1 img{
+		margin-top: 10px;
+	}
 	.promociones .btn-read{
 		display: none;
 	}
@@ -486,17 +506,149 @@ footer li a:hover,footer li a:focus{
 	.mejores img{
 		width: 100%;
 	}
+	.producto_acciones{
+		display: none;
+	}
 	/* ------ Super Promo------*/
 	.super-promo{
 		margin-top: 1600px;
+		height: 370px;
+	}
+	.super-promo h2{
+		font-size: 40px;	
+	}
+	.super-promo p{
+		font-size: 15px;
+		text-align: left;
+	}
+	.super-promo img{
+		padding-top: 25%;
 	}
 	/* ---- Especiales----*/
 	.especiales .imagen{
 		height: 150px;
 	}
+	.input-group{
+		margin-left: 10%;
+		margin-right: 10%;
+		width: 80%;
+	}
 	/*------ Footer ------*/
 	footer{
 		top: 1500;
+	}
+
+}
+@media screen and (max-width:412px){
+	/* ------ Header ------*/
+	header .collapse{
+		float: left;
+	}
+	/* ------ Cabecera ------*/
+	.cabecera .navbar{
+		display: none;
+	}
+	/* Precentacion */
+	.slider_banner{
+		height: 111.14px;
+		padding: 0 1%;
+		position: relative;
+		top: 50px;
+		z-index: 1000;
+	}
+	.slider_banner img{
+		height: 100%;
+	}
+	/* ----- Promociones ------ */
+	.promociones2{
+		margin-top: 50px;
+	}
+
+	/* ------ Mejores ------*/
+	.mejores{
+		margin-top: 700px;
+	}
+	.mejores_articulos section{
+		height: 250px;
+		margin-left: 0;
+	}
+	.producto_img{
+		height: 150px;
+	}
+	.abajo{
+		margin-left: 25%;
+		margin-top: 100px;
+	}
+	.mejores .navbar{
+		display: none;
+	}
+	/* ------ Super Promo ------*/
+	.super-promo{
+		margin-top: 1400px;
+	}
+	.super-promo .col-md-5{
+		margin-right:0;
+	}
+	.super-promo h2{
+		font-size: 25px;
+	}
+	.super-promo p{
+		font-size: 15px;
+		text-align: justify;
+		margin-right: 20px;	
+	}
+	.super-promo img{
+		margin-top: 50%;
+	}
+	.super-promo .btn-read{
+		margin-right: -190px;
+	}
+	/* ------ Especiales ------ */
+	.especiales h3{
+		font-size: 20px;
+	}
+	.especiales .imagen{
+		height: 80px;
+	}
+	.top-ventas{
+		margin-top: 100px;
+	}
+	.form-control,.btn-default{
+		height: 40px;
+	}
+	.form-control{
+		font-size: 15px;
+		padding-left: 1em;
+	}
+	.btn-default{
+		background: #006CFF;
+		border-radius: 0 30px 30px 0;
+		color: white;
+		font-size: 15px;
+		padding-left: .5em;
+		padding-right: .5em; 
+	}
+	/* ------ Servicios ------ */
+	.servicios{
+		padding-bottom: 50px;
+	}
+	/* ------ Footer ------ */
+	.footer{
+		padding-left: 0;
+	}
+	footer h3{
+		font-size: 18px;
+	}
+	footer li{
+		font-size: 12.5px;
+	}
+	.copy{
+		font-size: 12.5px;
+		margin-left: 50px;
+		padding-bottom: 25px;
+	}
+	.copy p{
+		padding-top: 100px;
 	}
 
 }

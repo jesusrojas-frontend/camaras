@@ -1,8 +1,8 @@
 	
 
-	<footer class="col-md-12 col-sm-12">
-		 <div class="footer col-md-12 col-sm-12">
-		 	<section class="col-md-4 col-sm-4">
+	<footer class="col-md-12 col-sm-12 col-xs-12">
+		 <div class="footer col-md-12 col-sm-12 col-xs-12">
+		 	<section class="col-md-4 col-sm-4 col-xs-4">
 		 		<h3>Contactanos</h3>
 		 		<ul>
 		 			<li><a href="#">Contacto</a></li>
@@ -10,7 +10,7 @@
 		 			<li>Email: <a href="#"> aenriquer@gmail.com</a></li>
 		 		</ul>
 		 	</section>
-		 	<section class="col-md-4 col-sm-4">
+		 	<section class="col-md-4 col-sm-4 col-xs-4">
 		 		<h3>Informacion</h3>
 		 		<ul>
 		 			<li><a href="#">Informacion</a></li>
@@ -18,7 +18,7 @@
 		 			<li><a href="#">Terminos y condiciones</a></li>
 		 		</ul>
 		 	</section>
-		 	<section class="col-md-4 col-sm-4">
+		 	<section class="col-md-4 col-sm-4 col-xs-4">
 		 		<h3>Cuenta</h3>
 		 		<ul>
 		 			<li><a href="#">Ingresar</a></li>

@@ -20,6 +20,7 @@ $(document).ready(function(){
 
 	 $('#banner-next').on('click', function(e){
 	 	e.preventDefault();
+	 	console.log(e);
 
 	 	if(banner.posicion < banner.numeroSlides){
 
@@ -117,8 +118,7 @@ $(document).ready(function(){
 	 /*----- Temporizador ------*/
 
 	var milisegundos = 1000;
-		//timer = setInterval('temporizador()', 2000);
+		//timer = setInterval('siguiente()', 4000);
 
 
 });
-

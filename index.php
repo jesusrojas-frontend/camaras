@@ -32,7 +32,7 @@
 							<a href="#">
 								<img src="/img/BannerPortada/3.jpg" alt="Kit1" class="imagen_banner">
 							</a>
-						</div>-
+						</div>
 
 					
 					</div>
@@ -50,12 +50,14 @@
 			<article class="promociones1 col-md-4 col-sm-4" id="promociones1">
 				<section class="col-md-7">
 					<h2>Camaras</h2>
-					<p>Camaras infrarojos de alta resolucion.</p>
+					<p>Lo mejor en camaras infrarojas de alta resolucion.</p>
 				</section>
 				<a href="#" class="btn-read">Leer mas</a>
+				<img src="/img/camaras.jpg" alt="camaras" class="col-md-5 col-sm-12 col-xs-10">
 				
 			</article>
 			<article class="promociones2 col-md-4 col-sm-4" id="promociones2">
+				<img src="/img/monitores.jpg" alt="monitores" class="col-md-6 col-sm-12 col-xs-12">
 				<section class="separador">
 				<h2>Monitores</h2>
 					<section class="col-md-5">
@@ -71,7 +73,7 @@
 					<h2>Sistemas de Acceso</h2>
 					<p>Sistema biometrico para control de acceso por horarios.</p>
 				</section>
-				<img src="/img/productos/F19.jpg" alt="Biometrico" class="col-md-6">
+				<img src="/img/productos/F19.jpg" alt="Biometrico" class="col-md-6 col-sm-7 col-xs-7">
 				<section class="col-md-6 separador-btn">
 					
 					<a href="#" class="btn-read">Leer mas</a>
@@ -93,7 +95,7 @@
 			</nav><!-- Menu Mejores -->
 			<article class="mejores_articulos">
 				
-				<section class="col-md-2 col-sm-4">
+				<section class="col-md-2 col-sm-4 col-xs-6">
 					<div class="producto_img">
 						<a href="/hola">
 						<img src="/img/productos/ST-R758.jpg" alt="Camara Mini Domo" class="col-md-12"></a>
@@ -114,7 +116,7 @@
 				</section>
 				
 				
-				<section class="col-md-2 col-sm-4">
+				<section class="col-md-2 col-sm-4 col-xs-6">
 					<div class="producto_img">
 						<a href="#">
 							<img src="/img/productos/ST-R758ATQ.jpg" alt="ST-R758ATQ" class="col-md-12">
@@ -136,7 +138,7 @@
 				</section>
 				
 				
-				<section class="col-md-2 col-sm-4">
+				<section class="col-md-2 col-sm-4 col-xs-6 col-xs-6">
 					<div class="producto_img">
 						<a href="#">
 							<img src="/img/productos/ST-740.JPG" alt="ST-740" class="col-md-12">
@@ -158,7 +160,7 @@
 				</section>
 				
 				
-				<section class="col-md-2 col-sm-4">
+				<section class="col-md-2 col-sm-4 col-xs-6 col-xs-6">
 					<div class="producto_img">
 						<a href="#">
 							<img src="/img/productos/ST-603.jpg" alt="ST-603" class="col-md-12">
@@ -183,7 +185,7 @@
 
 
 
-				<section class="col-md-2 col-sm-4">
+				<section class="col-md-2 col-sm-4 col-xs-6">
 					<div class="producto_img">
 						<a href="#">
 							<img src="/img/productos/IPC-HFW2200.jpg" alt="Camara ip Tipo Bullet" class="col-md-12">
@@ -205,7 +207,7 @@
 				</section>
 				
 				
-				<section class="col-md-2 col-sm-4">
+				<section class="col-md-2 col-sm-4 col-xs-6">
 					<div class="producto_img">
 						<a href="#">
 							<img src="/img/productos/IPC-HFW3300.jpg" alt="Camara ip Tipo Bullet" class="col-md-12">
@@ -227,7 +229,7 @@
 				</section>
 				
 				
-				<section class="col-md-2 col-sm-4">
+				<section class="col-md-2 col-sm-4 col-xs-6">
 					<div class="producto_img">
 						<a href="#">
 							<img src="/img/productos/SD63230S.jpg" alt="Camara PTZ IP" class="col-md-12">
@@ -249,7 +251,7 @@
 				</section>
 				
 				
-				<section class="col-md-2 col-sm-4">
+				<section class="col-md-2 col-sm-4 col-xs-6">
 					<div class="producto_img">
 						<a href="#">
 							<img src="/img/productos/DH-NKB-1000.jpg" alt="Controlador PTZ IP" class="col-md-12">
@@ -273,18 +275,17 @@
 				
 				
 			</article>
-			<div class="col-md-2 col-sm-4 block-center abajo">
+			<div class="col-md-2 col-sm-4 col-xs-12 block-center abajo">
 					<a href="#" class="btn-read">Mostra mas</a>
 				</div>
 		</section><!-- Mejores -->
 		<section class="super-promo col-md-12">
-			<article class="col-md-6 col-sm-6">
-				<img src="" alt="Super Promocion">
+			<article class="col-md-6 col-sm-5 col-xs-6">
+				<img src="/img/super-promo.jpg" alt="Super Promocion" class="col-md-12 col-sm-12 col-xs-12">
 			</article>
-			<article class="col-md-5 col-sm-5">
-				<h2>iPhone 6 Plus</h2>
-				<p class="col-md-8 col-sm-8">Performance and design. Taken
-					right to the edge.</p>
+			<article class="col-md-5 col-sm-5 col-xs-6 super-promo_info">
+				<h2>Super Combo</h2>
+				<p class="col-md-9 col-sm-9 col-xs-12">Llevate cuatro camaras,computadora, control y mouse. Esta es una oferta que no podras rechazar.</p>
 				<a href="#" class="btn-read">Comprar Ahora</a>
 			</article>
 		</section><!-- Super Promocion -->
@@ -294,7 +295,7 @@
 				<h2 class="text-center">
 					<i class="fa fa-truck"></i>
 				</h2>
-				<h3 class="text-center">Free shipping</h3>
+				<h3 class="text-center">Envio Gratis</h3>
 				<p class="text-center">Lorem Ipsum is simply dummy text of th rpinting and typesetting industry. Lorem Ipsum has been the industry’s standard dummy</p>
 			</article><!-- Servicio -->
 			<article class="col-md-4 col-sm-4
@@ -302,7 +303,7 @@
 				<h2 class="text-center">
 					<i class="fa fa-refresh"></i>
 				</h2>
-				<h3 class="text-center">100% refund</h3>
+				<h3 class="text-center">100% retornable</h3>
 				<p class="text-center">Lorem Ipsum is simply dummy text of th rpinting and typesetting industry. Lorem Ipsum has been the industry’s standard dummy</p>
 			</article><!-- Servicio -->
 			<article class="col-md-4 col-sm-4
@@ -310,12 +311,12 @@
 				<h2 class="text-center">
 					<i class="fa  fa-support"></i>
 				</h2>
-				<h3 class="text-center">suporte 24/7</h3>
+				<h3 class="text-center">Soporte 24/7</h3>
 				<p class="text-center">Lorem Ipsum is simply dummy text of th rpinting and typesetting industry. Lorem Ipsum has been the industry’s standard dummy</p>
 			</article><!-- Servicio -->
 		</section><!-- Servicios -->
 		<section class="especiales col-md-12 col-sm-12">
-			<article class="col-md-4 col-sm-4">
+			<article class="col-md-4 col-sm-4 col-xs-6">
 				<h3>Productos destacados</h3>
 				<section class="col-md-12">
 					<div class="ventas">
@@ -352,7 +353,7 @@
 				</section><!-- 1 -->
 
 			</article>
-			<article class="col-md-4 col-sm-4">
+			<article class="col-md-4 col-sm-4 col-xs-6">
 				<h3>Ofertas especiales</h3>
 				<section class="col-md-12">
 					<div class="ventas">
@@ -388,7 +389,7 @@
 					</div>
 				</section><!-- 1 -->
 			</article>
-			<article class="col-md-4 col-sm-4">
+			<article class="col-md-4 col-sm-4 col-xs-6 top-ventas">
 				<h3>top ventas</h3>
 				
 				<section class="col-md-12">
